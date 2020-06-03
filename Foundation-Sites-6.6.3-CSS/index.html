@@ -9,38 +9,18 @@
     <link rel="stylesheet" href="assets/css/foundation.css">
   </head>
 <body>
+  <!--error Message Validate-->
   <form data-abide novalidate>
     <div class="grid-x grid-margin-x">
       <div class="cell">
         <div data-abide-error class="alert callout" style="display: none;">
-          <p><i class="fi-alert"></i>There are some errors in your form.</p>
+          <p><i class="fi-alert"></i>
+            There are some errors in your form.
+          </p>
         </div>
       </div>
     </div>
-    <div class="grid-x grid-margin-x">
-      <div class="cell small-12 ">
-        <label>Number Required
-        <input type="text" placeholder="1234" aria-describedby="exampleHelpText" required pattern="number" value="">
-        <span class="form-error">
-         Yo! you forgot something in your form
-        </span>
-      </label>
-      <p class="help-text" id="exampleHelpText">
-        Here is how to fill it out 
-      </p>
-      </div>
-    </div>
-    <div class="cell small-12">
-      <label>Password Required 
-      <input type="password" id="password" placeholder="sdio389" aria-describedby="exampleHelpText" required>
-      <span class="form-error">
-        I am required
-      </span>
-    </label>
-    <p class="help-text" id="exampleHelpText">
-      Enter a passwrord please 
-    </p>
-    </div>
+    
   
 <script src="assets/js/vendor.js"></script>
 <script src="assets/js/foundation.js"></script>
